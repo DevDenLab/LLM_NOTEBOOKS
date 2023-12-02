@@ -27,33 +27,33 @@ To create a Question Answering Chatbot using the data scraped from collection of
 - [ ] Can it reply to multiple users at the same time(Dont know).
 
 ___
-# Process Architecture/Diagram:
-|![alt text](https://github.com/TatvaJoshi/LLM_NOTEBOOKS/blob/main/static/images/AHS_BOT%20-%20Page%201.png)|
+# Process Architecture/Diagram:Inference_2.png
+|![alt text](https://github.com/DevDenLab/LLM_NOTEBOOKS/blob/main/static/images/AHS_BOT%20-%20Page%201.png)|
 |:-:|
 |High-level diagram of ***LLM Fientuning Process***|
 ___
-|![alt text](https://github.com/TatvaJoshi/LLM_NOTEBOOKS/blob/main/static/images/AHS_BOT_Inference.png)|
+|![alt text](https://github.com/DevDenLab/LLM_NOTEBOOKS/blob/main/static/images/AHS_BOT_Inference.png)|
 |:-:|
 |High-level diagram of **LLM Inference Process**|
 ___
-|![alt text](https://github.com/TatvaJoshi/LLM_NOTEBOOKS/blob/main/static/images/End_to_End_Process.png)|
+|![alt text](https://github.com/DevDenLab/LLM_NOTEBOOKS/blob/main/static/images/End_to_End_Process.png)|
 |:-:|
 |High-level diagram of **End-To-End Process**|
 ___
 # Results/Demo of Final Model:
-|![](https://github.com/TatvaJoshi/LLM_NOTEBOOKS/blob/main/static/images/test-1.png)|![](https://github.com/TatvaJoshi/LLM_NOTEBOOKS/blob/main/static/images/test-2.png)|
+|![](https://github.com/DevDenLab/LLM_NOTEBOOKS/blob/main/static/images/test-1.png)|![](https://github.com/DevDenLab/LLM_NOTEBOOKS/blob/main/static/images/test-2.png)|
 |:-:|:-:|
 |Test-1(**Success**)|Test-2(**Success**)|
 ____
-|![](https://github.com/TatvaJoshi/LLM_NOTEBOOKS/blob/main/static/images/test-3.png)|![](https://github.com/TatvaJoshi/LLM_NOTEBOOKS/blob/main/static/images/test-4.png)|
+|![](https://github.com/DevDenLab/LLM_NOTEBOOKS/blob/main/static/images/test-3.png)|![](https://github.com/DevDenLab/LLM_NOTEBOOKS/blob/main/static/images/test-4.png)|
 |:-:|:-:|
 |Test-3(**Success**)|Test-4(**Success**)|
 ____
-|![](https://github.com/TatvaJoshi/LLM_NOTEBOOKS/blob/main/static/images/test-5.png)|![](https://github.com/TatvaJoshi/LLM_NOTEBOOKS/blob/main/static/images/test-6.png)|
+|![](https://github.com/DevDenLab/LLM_NOTEBOOKS/blob/main/static/images/test-5.png)|![](https://github.com/DevDenLab/LLM_NOTEBOOKS/blob/main/static/images/test-6.png)|
 |:-:|:-:|
 |Test-5(**Success**)|Test-6(**Success**)|
 ___
-|![](https://github.com/TatvaJoshi/LLM_NOTEBOOKS/blob/main/static/images/Issue-3.png)|![](https://github.com/TatvaJoshi/LLM_NOTEBOOKS/blob/main/static/images/issues-2.png)|
+|![](https://github.com/DevDenLab/LLM_NOTEBOOKS/blob/main/static/images/Issue-3.png)|![](https://github.com/DevDenLab/LLM_NOTEBOOKS/blob/main/static/images/issues-2.png)|
 |:-:|:-:|
 |Test-7(**Issue/Resolved**)-Generated correct response with correct url but did not stop and continue generating additonal related info(**Resolved**)|Test-8(**Issue/Resolved**)-It answers the questions by providing the right url but also outputs the urls which have not been asked in a query(**Resolved**)|
 ___
@@ -109,7 +109,7 @@ ___
 To run the Chatbot locally on your machine, follow these steps:
 
 1. **Download Code File:**
-   - Download the [Python code file](https://github.com/TatvaJoshi/LLM_NOTEBOOKS/blob/main/3.Chainlit%2BGGUF_Inference%2BLangchain%2BVectorStore%2BQ%26A_web.py) and place it in a separate directory.
+   - Download the [Python code file](https://github.com/DevDenLab/LLM_NOTEBOOKS/blob/main/3.Chainlit%2BGGUF_Inference%2BLangchain%2BVectorStore%2BQ%26A_web.py) and place it in a separate directory.
 
 2. **Install Python:**
    - Install the [Python programming language](https://www.python.org/downloads/).
@@ -126,13 +126,13 @@ To run the Chatbot locally on your machine, follow these steps:
      ```
 
 4. **Download Dependencies File:**
-   - Download the [dependencies file](https://github.com/TatvaJoshi/LLM_NOTEBOOKS/blob/main/requirements.txt) and place it in the same directory as the Python file.
+   - Download the [dependencies file](https://github.com/DevDenLab/LLM_NOTEBOOKS/blob/main/requirements.txt) and place it in the same directory as the Python file.
 
 5. **Download Dataset File:**
-   - Download the [dataset file](https://github.com/TatvaJoshi/LLM_NOTEBOOKS/blob/main/DATASET/AHS_OPS_TEXT(combined_text_2).txt) and place it in a directory named "data" within the same directory as other files.
+   - Download the [dataset file](https://github.com/DevDenLab/LLM_NOTEBOOKS/blob/main/DATASET/AHS_OPS_TEXT(combined_text_2).txt) and place it in a directory named "data" within the same directory as other files.
 
 6. **Download Model:**
-   - Download the [model file](https://huggingface.co/Tatvajsh/AHS_OPS_GGUF_V_1.0/blob/main/OPS_WPCS_Q4.gguf) and place it in the same directory.
+   - Download the [model file](https://huggingface.co/DevDenLab/AHS_OPS_GGUF_V_1.0/blob/main/OPS_WPCS_Q4.gguf) and place it in the same directory.
 
 7. **Download Ingest File:**
    - Download the [ingest file](https://github.com/TatvaJoshi/LLM_NOTEBOOKS/blob/main/Ingest.py) and run the following command:
@@ -160,8 +160,8 @@ To run the Chatbot locally on your machine, follow these steps:
 ---
 
 If you encounter any issues or need assistance, feel free to:
-- [Raise an issue](https://github.com/TatvaJoshi/LLM_NOTEBOOKS/issues) in the repository's issues section.
-- For additional help, contact Tatva Joshi at [Tatva.joshi@albertahealthservices.ca](mailto:Tatva.joshi@albertahealthservices.ca).
+- [Raise an issue](https://github.com/DevDenLab/LLM_NOTEBOOKS/issues) in the repository's issues section.
+- For additional help, contact Tatva Joshi
 
 # How to convert Pytorch.bin to GGUF format:
 1. pip install llama-cpp-python
@@ -222,16 +222,16 @@ ___
         token on the previously generated ones. So, when It's mentioned that the decoder processes tokens in **an autoregressive manner**, it means it predicts 
         each token based on the preceding tokens it has generated in the sequence.
 4. **Retrieval Augmented Generation(RAG)**
-   > Retrieval-augmented generation (RAG) for large language models (LLMs) aims to improve prediction quality by using an external datastore at inference time to build a richer prompt that includes some combination of context, history, and recent/relevant knowledge.See this [image](https://github.com/TatvaJoshi/LLM_NOTEBOOKS/blob/main/static/images/End_to_End_Process.png) to have better understanding.
+   > Retrieval-augmented generation (RAG) for large language models (LLMs) aims to improve prediction quality by using an external datastore at inference time to build a richer prompt that includes some combination of context, history, and recent/relevant knowledge.See this [image](https://github.com/DevDenLab/LLM_NOTEBOOKS/blob/main/static/images/End_to_End_Process.png) to have better understanding.
 5. **Tokenizer**
    > The main purpose of using a tokenizer with a language model like LLM (Large Language Model) is to convert text into data that can be processed by the model. Models can only process numbers, so tokenizers need to convert our text inputs into numerical data.To get better Idea,see below Image:
-  ![](https://github.com/TatvaJoshi/LLM_NOTEBOOKS/blob/main/static/images/Tokenizer.png)
+  ![](https://github.com/DevDenLab/LLM_NOTEBOOKS/blob/main/static/images/Tokenizer.png)
 6. **Transformer**
 7. **Embeddings**
    > An embedding is a representation of a word or token in a continuous vector space.In language models, embeddings are learned representations of words or tokens that capture semantic meaning.For example, in the sentence "The cat is cute," each word ("The," "cat," "is," "cute") would have its own embedding vector. **Another Example**:let's consider the words "king" and "queen." In a well-trained language model, the embeddings for these words might be arranged in the vector space in such a way that the vector for "queen" is in a direction similar to the vector for "king," reflecting the semantic relationship between these words. In my case, The embeddings of each word has length of 3200,that means if I have given a word,lets say,"action",then this word would be converted to the embedding of the size 3200. Which we can not comprehend,but its can be comprehended by the neural netowowk quite easily. Why do I need to convert the word to embedding?->Follow the Explanation of how transformers work in Explanation section(Coming Soon...)
    >> In a nutshell,The primary goal of these embeddings is to capture the semantic (meaningful) relationships between words or tokens. This means that words with similar meanings or that often appear in similar contexts will have embeddings that are close together in the vector space. The model learns to represent not just the surface form of the words but also the underlying semantic relationships between them.
-   >> For Example,![](https://github.com/TatvaJoshi/LLM_NOTEBOOKS/blob/main/static/images/sent_trans-1.png)
-   >> ![](https://github.com/TatvaJoshi/LLM_NOTEBOOKS/blob/main/static/images/sent-trans-2.png)
+   >> For Example,![](https://github.com/DevDenLab/LLM_NOTEBOOKS/blob/main/static/images/sent_trans-1.png)
+   >> ![](https://github.com/DevDenLab/LLM_NOTEBOOKS/blob/main/static/images/sent-trans-2.png)
 9. **Vector store/database**
    > Vector databases are designed to efficiently store and retrieve **vectors** or **embeddings**. They provide fast similarity searches and are commonly used in applications where finding similar vectors or embeddings is a key requirement. Just like in my case, where I am retrieving similar records from the vector store and passing those similar records along with the query to the language model,just so to improve the accuracy of responses from llm.
 10. **Parameter Efficient Finetuning**
@@ -291,7 +291,7 @@ ___
 9. **what is Alpaca Format and Instruction Tuning?**
    - The newer techniques to finetune the pretrained model include the dataset in [the format of Alpaca](https://huggingface.co/datasets/tatsu-lab/alpaca?row=0), which I have used during the finetuning process. Its basically a format containing 2 columns namely Question/Instruction and Answer. The first one will contain the Questions asking for specific information and Latter will contain Answer to that question. Then This information will be combined with the below prompt template and under a new column named “text”, which we will send for training to the model.
         - **Prompt Template**:
-            ![](https://github.com/TatvaJoshi/LLM_NOTEBOOKS/blob/main/static/images/prompt-template.png)
+            ![](https://github.com/DevDenLab/LLM_NOTEBOOKS/blob/main/static/images/prompt-template.png)
          
 10. **What is Quantization and how is it achieved?**
     - An uncompressed version of the model (the full-precision model) has their weights parameters stored in FP32 datatype (takes about 4 bytes or 32 bits for storing one parameter). By changing the datatype from FP32 to FP16(half-precision), the research has found that there is a very negligible difference in performance of the language model by doing that. We may as well go for FP8(8-bit floating point) or 4-bit Int/floating point, resulting in incredible reduction of model size.
