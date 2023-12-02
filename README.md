@@ -57,7 +57,7 @@ ___
 |:-:|:-:|
 |Test-7(**Issue/Resolved**)-Generated correct response with correct url but did not stop and continue generating additonal related info(**Resolved**)|Test-8(**Issue/Resolved**)-It answers the questions by providing the right url but also outputs the urls which have not been asked in a query(**Resolved**)|
 ___
-|![](https://github.com/TatvaJoshi/LLM_NOTEBOOKS/blob/main/static/images/Conversation.jpeg)|
+|![](https://github.com/DevDenLab/LLM_NOTEBOOKS/blob/main/static/images/Conversation.jpeg)|
 |:-:|
 |Test-9(**Success**)-A Complete Conversation Chat with User. The first response demonstrate the Model's capability to understand the User Query and Give brief , speicific and coherent Response. The second response states that this model does not hallucinates the URL/LINKS/etc.. The Third Response explains how Language model can Interact with API of Waitime to give Updated Info about waitime to the user in real time. The fourth response tells the model's comphrensive ability in understanding scrambled text question and answering Accurately. The fifth response suggests that It can take ainto account the conversation history and doesnot stop at first question but also answer the subsequent question in the user query. |
 ___
